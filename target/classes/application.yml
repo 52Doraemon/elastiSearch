@@ -1,0 +1,5 @@
+
+# application.yml
+elasticsearch:
+  host: localhost
+  port: 9200
