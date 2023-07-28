@@ -1,12 +1,12 @@
 ## ElastiSearch的入门程序
 
-对于ES新入门小伙伴尽量选中7.17版本不要选择8版本，因为ES8中默认开启安全认证的，为了安全性，不能使用root账号启动，需切换其他账号，或新建账号来启动。
+对于ES新入门小伙伴尽量选中7.17版本不要选择8版本，因为**ES8默认开启安全认证**的，为了安全性，不能使用root账号启动，需切换其他账号，或新建账号来启动。
 
-启动无法访问
-原因：ES8默认开启了 ssl 认证
-解决：修改elasticsearch.yml配置文件：
-xpack.security.http.ssl:enabled 设置成 false
-xpack.security.enabled 设置成false
+> 启动无法访问
+> 原因：ES8默认开启了 ssl 认证
+> 解决：修改elasticsearch.yml配置文件：
+> xpack.security.http.ssl:enabled 设置成 false
+> xpack.security.enabled 设置成false
 
 network.host: 0.0.0.0
 #
