@@ -8,6 +8,7 @@
 > xpack.security.http.ssl:enabled 设置成 false
 > xpack.security.enabled 设置成false
 
+```
 network.host: 0.0.0.0
 #
 # By default Elasticsearch listens for HTTP traffic on the first free port it
@@ -32,3 +33,4 @@ xpack.security.transport.ssl:
 # Create a new cluster with the current node only
 # Additional nodes can still join the cluster later
 cluster.initial_master_nodes: ["VM-4-12-centos"]
+```
